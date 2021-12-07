@@ -1,15 +1,15 @@
 let menu = document.querySelector('#menu-btn');
-let navbar =document.querySelector('.header .navbar');
+let navbar = document.querySelector('.header .navbar');
 
-menu.onclick =() =>{
+menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }
 
-// Day and night
+// Day and nigh
 let themeBtn = document.querySelector('#theme-btn');
 
-themeBtn.onclick = () =>{
+themeBtn.onclick = () => {
     themeBtn.classList.toggle('fa-sun');
 
     if(themeBtn.classList.contains('fa-sun')){
@@ -17,9 +17,9 @@ themeBtn.onclick = () =>{
     }else{
         document.body.classList.remove('active');
     }
-}
+};
 
-window.onscroll = () => {
+window.onscroll = () =>{
     menu.classList.remove('fa-times');
-    navbar.classList.remove("active"); 
+    navbar.classList.remove('active');
 }
