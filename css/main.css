@@ -569,6 +569,7 @@ section {
   color: var(--red);
 }
 
+/* responsive */
 @media (max-width: 991px) {
   html {
     font-size: 55%;
