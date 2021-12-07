@@ -217,6 +217,11 @@ section{
     border-radius: .5rem;
 }
 
+.work .box-container img:hover{
+    transform: scale(1.05);
+    
+}
+
 .pricing .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(31rem , 1fr));
